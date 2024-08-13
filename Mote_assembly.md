@@ -40,6 +40,8 @@ Once the electronics components have been installed into the PCB, the final step
 ### Tethered motes
 For tethered motes, the BMP breakout board is waterproofed by installing the SF2 filter cap into the breakout and then covering the filter cap + board assembly with a conformal coating. For the SF building deployments, only two layers of conformal coating were applied, which proved suboptimal since most sensors had been broken by water ingress after 3 months. 
 
+The tethers come out of the housing through 1/4" holes drilled into the housing, and then the gap around the wires is sealed with silicone.
+
 The tethers are 1 m long 6-wire cables to connect the sensors to the Arduino via the SPI interface. Because SPI is not optimized for long distance communication, I found that either making the tethers longer than this or having more than 2 tethers per mote often resulted in communication errors.
 
 ### Onboard motes
